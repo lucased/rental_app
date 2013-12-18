@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rental App" product="MySQL" version="5.5.29" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="e2734319-3ba9-430c-a1fd-6fc9938c86c6">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost:3306/rental_app</jdbc-url>
+    <user-name>root</user-name>
+    <user-password>dfd8dfc5dfc5dfde</user-password>
+    <schema-pattern>rental_app.*</schema-pattern>
+    <default-schemas>rental_app.*</default-schemas>
+    <libraries>
+      <library>
+        <url>file://$PROJECT_DIR$/../sandbox/mysql-connector-java-5.1.22-bin.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="rental_app"/>
+    <table name="category" schema="" catalog="rental_app" type="TABLE">
+      <column name="category" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="category"/>
+      <exported-key name="category_fk" table="inventory" schema="" catalog="rental_app" columns="category"/>
+    </table>
+    <table name="inventory" schema="" catalog="rental_app" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="pName" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="VARCHAR" length="300" precision="0" nullable="true" jdbcType="12"/>
+      <column name="category" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="week_price" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="month_price" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="three_month_price" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="stock" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="asset_number" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="category_fk" columns="category" ref-table="category" ref-schema="" ref-catalog="rental_app" ref-columns="category" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+  </data-source>
+</component>
