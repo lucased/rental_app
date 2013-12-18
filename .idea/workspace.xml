@@ -83,17 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/item.model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="-15.217391">
-              <folding>
-                <marker date="1385633462000" expanded="true" signature="506:523" placeholder="SELECT SQL_C..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,10 +130,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.view.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="51" selection-start="7645" selection-end="7645" vertical-scroll-proportion="0.958021">
+            <state line="172" column="51" selection-start="7645" selection-end="7645" vertical-scroll-proportion="-104.695656">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="89" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.1971015">
               <folding />
             </state>
           </provider>
@@ -191,6 +189,7 @@
         <option value="$PROJECT_DIR$/models/db.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/index.view.php" />
+        <option value="$PROJECT_DIR$/db.sql" />
       </list>
     </option>
   </component>
@@ -256,74 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rental-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,13 +420,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/test/DOA.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="1" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" />
@@ -533,7 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="-15.217391">
           <folding>
-            <marker date="1385633462000" expanded="true" signature="506:523" placeholder="SELECT SQL_C..." />
+            <marker date="1385633462000" expanded="true" signature="-1:-1" placeholder="SELECT SQL_C..." />
           </folding>
         </state>
       </provider>
@@ -605,7 +529,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="51" selection-start="7645" selection-end="7645" vertical-scroll-proportion="0.958021">
+        <state line="172" column="51" selection-start="7645" selection-end="7645" vertical-scroll-proportion="-104.695656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="89" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.1971015">
           <folding />
         </state>
       </provider>
